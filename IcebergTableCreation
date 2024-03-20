@@ -1,0 +1,5 @@
+CREATE TABLE <db_name>.iceberg_table (
+id Int,
+name String,
+place String,
+salary Double) USING iceberg;
