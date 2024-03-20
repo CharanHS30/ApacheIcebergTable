@@ -1,5 +1,11 @@
+//Iceberg table creation
 CREATE TABLE <db_name>.iceberg_table (
 id Int,
 name String,
 place String,
 salary Double) USING iceberg;
+
+//Insert value to the iceberg table
+INSERT INTO <db_name>.iceberg_table VALUES (1, "charan", "Bangalore", 10000), (2, "ajay", "Mysore", 20000), (3, "aagama", "hydrabad", 30000);
+
+
